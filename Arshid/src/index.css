@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght,ROND@6..144,1..1000,100&display=swap");
+@import url("https://fonts.cdnfonts.com/css/too-freakin-cute-demo");
+
+@import "tailwindcss";
+
+@theme {
+  --font-custom: "Google Sans Flex", sans-serif;
+  --font-custom-2: "Too Freakin Cute Demo", sans-serif;
+  --color-brand: oklch(64.6% 0.222 41.116);
+  --color-black-1: oklch(14.5% 0 0);
+  --color-black-2: oklch(20% 0 0);
+  --color-black-3: oklch(26% 0 0);
+  --color-white-1: oklch(95% 0.015 85);
+  --color-white-2: oklch(80% 0.015 85);
+  --color-white-3: oklch(50% 0.015 85);
+  --color-border-color: oklch(100% 0 0 / 0.067);
+}
