@@ -11,7 +11,7 @@ const Myfooter = () => {
           Github
         </a>
 
-        <span className="select-none text-white-3">|</span>
+        <span className="select-none text-white-2">|</span>
 
         <a
           className="transition-all ease-in-out duration-300 p-1 hover:text-brand "
@@ -20,7 +20,7 @@ const Myfooter = () => {
           Figma
         </a>
 
-        <span className="select-none text-white-3 ">|</span>
+        <span className="select-none text-white-2 ">|</span>
 
         <a
           className="transition-all ease-in-out duration-300 p-1 hover:text-brand "
@@ -29,7 +29,7 @@ const Myfooter = () => {
           Instagram
         </a>
 
-        <span className="select-none text-white-3">|</span>
+        <span className="select-none text-white-2">|</span>
 
         <a
           className="transition-all ease-in-out duration-300 p-1 hover:text-brand "

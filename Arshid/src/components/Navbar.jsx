@@ -20,8 +20,8 @@ const Navbar = () => {
               `group flex size-12 items-center  justify-center rounded-[20px] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-3 text-brand ring-1 ring-inset ring-border-color "
-                 : "text-white-2 hover:bg-black-3 hover:text-white-3"
+                 ? "bg-black-2 text-brand ring-1 ring-inset ring-border-color "
+                 : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
           >
@@ -47,8 +47,8 @@ const Navbar = () => {
               `group flex size-12 items-center  justify-center rounded-[20px] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-3 text-brand ring-1 ring-inset  ring-border-color "
-                 : "text-white-2 hover:bg-black-3 hover:text-white-3"
+                 ? "bg-black-2 text-brand ring-1 ring-inset  ring-border-color "
+                 : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
           >
@@ -74,8 +74,8 @@ const Navbar = () => {
               `group flex size-12 items-center  justify-center rounded-[20px] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-3 text-brand ring-1 ring-inset ring-border-color "
-                 : "text-white-2 hover:bg-black-3 hover:text-white-3"
+                 ? "bg-black-2 text-brand ring-1 ring-inset ring-border-color "
+                 : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
           >
@@ -101,8 +101,8 @@ const Navbar = () => {
               `group flex size-12 items-center  justify-center rounded-[20px] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-3 text-brand ring-1 ring-inset ring-border-color "
-                 : "text-white-2 hover:bg-black-3 hover:text-white-3"
+                 ? "bg-black-2 text-brand ring-1 ring-inset ring-border-color "
+                 : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
           >

@@ -7,7 +7,7 @@ const Myheader = () => {
       <header className="flex w-full  gap-4 justify-between ">
         <img
           fetchPriority="high"
-          className="size-16 aspect-square rounded-2xl bg-black-3 hover:bg-brand transition-all ease-in-out duration-300 cursor-pointer "
+          className="size-16 aspect-square rounded-2xl bg-black-2 hover:bg-brand transition-all ease-in-out duration-300 cursor-pointer "
           src={Arshid}
           alt={document.title}
         />
@@ -16,7 +16,7 @@ const Myheader = () => {
           <h1 className="text-xl text-white-1 font-semibold">
             Arshidiqbal<span className="text-orange-600">.</span>
           </h1>
-          <p className="text-white-3 text-sm">Designer & frontend developer</p>
+          <p className="text-white-2 text-sm">Designer & frontend developer</p>
         </div>
       </header>
     </>

@@ -48,7 +48,7 @@ const Things = () => {
   return (
     <>
       <div className="flex flex-col gap-4 w-full">
-        <Carrot >Design Resources</Carrot>
+        <Carrot >Design Resources<span className="text-brand" >.</span></Carrot>
 
         <div className="flex  gap-2 w-full flex-wrap">
           {cardData.map((card) => (
