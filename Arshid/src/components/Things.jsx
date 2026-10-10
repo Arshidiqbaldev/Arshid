@@ -11,7 +11,7 @@ const cardData = [
     img: bestfonts,
     alt: "best fonts",
     detail: "A collection of the best fonts for web & graphic design.",
-    action: "/assets/bestfonts.webp",
+    action: "/Best-fonts.zip",
     ctaContent: "Download",
   },
 
@@ -47,7 +47,7 @@ const cardData = [
 const Things = () => {
   return (
     <>
-      <div className="flex flex-col gap-4 w-full">
+      <div className="flex flex-col gap-6 w-full">
         <Carrot >Design Resources<span className="text-brand" >.</span></Carrot>
 
         <div className="flex  gap-2 w-full flex-wrap">
