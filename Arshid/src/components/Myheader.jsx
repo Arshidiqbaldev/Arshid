@@ -7,7 +7,7 @@ const Myheader = () => {
       <header className="flex w-full  gap-4 justify-between ">
         <img
           fetchPriority="high"
-          className="size-16 aspect-square rounded-2xl bg-black-2 hover:bg-brand transition-all ease-in-out duration-300 cursor-pointer "
+          className="size-16 md:size-18  aspect-square rounded-3xl bg-brand transition-all ease-in-out duration-300 cursor-pointer "
           src={Arshid}
           alt={document.title}
         />

@@ -5,6 +5,7 @@ import miniProjects from "../assets/mini-projects.webp";
 import Card from "./Card";
 import Carrot from "./Carrot";
 
+
 const cardData = [
   {
     id: 1,
@@ -25,32 +26,20 @@ const cardData = [
     ctaContent: "Use in figma",
   },
 
-  {
-    id: 3,
-    img: miniProjects,
-    alt: "Mini projects",
-    detail: "A collection of start up projects.",
-    action: "https://arshidprojects.vercel.app/",
-    ctaContent: "See projects",
-  },
 
-  {
-    id: 4,
-    img: miniProjects,
-    alt: "Small mini projects",
-    detail: "See my small javaScript projects best for learning",
-    action: "https://arshidprojects.vercel.app/",
-    ctaContent: "See projects",
-  },
+  
 ];
 
 const Things = () => {
   return (
     <>
       <div className="flex flex-col gap-6 w-full">
-        <Carrot >Design Resources<span className="text-brand" >.</span></Carrot>
+        
+        <Carrot>
+          Design Resources<span className="text-brand inline-flex">.</span>
+        </Carrot>
 
-        <div className="flex  gap-2 w-full flex-wrap">
+        <div className="flex  gap-2 w-full flex-wrap ">
           {cardData.map((card) => (
             <Card
               key={card.id}
