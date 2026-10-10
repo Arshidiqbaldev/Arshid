@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex w-full fixed z-40   bottom-4 left-0 px-4 justify-center ">
+    <>
       <ul className="flex  border border-border-color bg-black-2/50 backdrop-blur-xs  rounded-(--card-radius) p-(--card-padding)  [--card-padding:--spacing(2)] [--card-radius:var(--radius-3xl)]  gap-1 w-auto">
         <li>
           <NavLink
@@ -120,7 +120,7 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
-    </nav>
+    </>
   );
 };
 

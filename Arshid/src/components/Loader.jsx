@@ -6,8 +6,8 @@ import { Blocks } from "loading-dev";
 const Loader = () => {
   return (
     <>
-      <div className="flex flex-col gap-6 items-center justify-center  w-full">
-        <Blocks className="text-brand" size={28} />
+      <div className="flex flex-col gap-6 items-center bg-black-2 min-h-full inset-0 justify-center fixed w-full">
+        <Blocks className="text-brand " size={28} />
       </div>
     </>
   );
