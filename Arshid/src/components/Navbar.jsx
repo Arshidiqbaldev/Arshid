@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <ul className="flex  border border-border-color bg-black-2/50 backdrop-blur-xs  rounded-(--card-radius) p-(--card-padding)  [--card-padding:--spacing(2)] [--card-radius:var(--radius-3xl)]  gap-1 w-auto">
+      <ul className="flex  border border-border-color bg-black-2/80 backdrop-blur-xs  rounded-(--card-radius) p-(--card-padding)  [--card-padding:--spacing(2)] [--card-radius:var(--radius-3xl)]  gap-1 w-auto">
         <li>
           <NavLink
             to="/"
@@ -20,7 +20,7 @@ const Navbar = () => {
               `group flex size-10 items-center  justify-center rounded-[calc(var(--card-radius)-var(--card-padding))] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-2/50  text-brand ring-1 ring-inset ring-border-color "
+                 ? "bg-black-2/20  text-brand ring-1 ring-inset ring-border-color "
                  : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
@@ -47,7 +47,7 @@ const Navbar = () => {
               `group flex size-10 items-center  justify-center rounded-[calc(var(--card-radius)-var(--card-padding))] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-2/50 text-brand ring-1 ring-inset  ring-border-color "
+                 ? "bg-black-2/20 text-brand ring-1 ring-inset  ring-border-color "
                  : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
@@ -74,7 +74,7 @@ const Navbar = () => {
               `group flex size-10 items-center  justify-center rounded-[calc(var(--card-radius)-var(--card-padding))] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-2/50 text-brand ring-1 ring-inset ring-border-color "
+                 ? "bg-black-2/20 text-brand ring-1 ring-inset ring-border-color "
                  : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
@@ -101,7 +101,7 @@ const Navbar = () => {
               `group flex size-10 items-center  justify-center rounded-[calc(var(--card-radius)-var(--card-padding))] transition-all ease-in-out duration-300 active:text-brand
              ${
                isActive
-                 ? "bg-black-2/50 text-brand ring-1 ring-inset ring-border-color "
+                 ? "bg-black-2/20 text-brand ring-1 ring-inset ring-border-color "
                  : "text-white-2 hover:bg-black-2 hover:text-white-2"
              }`
             }
