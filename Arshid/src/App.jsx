@@ -4,7 +4,7 @@ import Work from "./components/Work";
 import Things from "./components/Things";
 import Notfound from "./components/Notfound";
 import Layout from "./components/Layout";
-import Contact from "./components/Contact";
+
 
 const router = createBrowserRouter([
   {
@@ -28,15 +28,6 @@ const router = createBrowserRouter([
     element: (
       <Layout>
         <Things />
-      </Layout>
-    ),
-  },
-
-   {
-    path: "/contact",
-    element: (
-      <Layout>
-        <Contact />
       </Layout>
     ),
   },

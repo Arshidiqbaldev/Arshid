@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { useEffect } from "react";
 import mariposa from "../assets/mariposa.webp";
 import expats from "../assets/Expats-Reality.webp";
 import cischool from "../assets/cischools-pk.webp";
@@ -56,6 +55,11 @@ const Card = ({ img, action, alt }) => {
 };
 
 const Work = () => {
+
+   useEffect(() => {
+      document.title = "Work @Arshidiqbal";
+    });
+
   return (
     <>
       <div className="flex flex-col gap-6 w-full">

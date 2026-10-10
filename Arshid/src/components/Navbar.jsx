@@ -2,7 +2,7 @@ import React from "react";
 import { UserIcon } from "@solar-icons/react/dynamic/user";
 import { FolderIcon } from "@solar-icons/react/dynamic/folder";
 import { LetterIcon } from "@solar-icons/react/dynamic/letter";
-import { SuitcaseIcon } from '@solar-icons/react/dynamic/suitcase'
+import { SuitcaseIcon } from "@solar-icons/react/dynamic/suitcase";
 
 import "../App.css";
 
@@ -95,8 +95,8 @@ const Navbar = () => {
 
         <li>
           <NavLink
-            to="/contact"
-            aria-label="Contact"
+            to="mailto:arshidiqbalnet@gmail.com"
+            aria-label="Email"
             className={({ isActive }) =>
               `group flex size-10 items-center  justify-center rounded-[calc(var(--card-radius)-var(--card-padding))] transition-all ease-in-out duration-300 active:text-brand
              ${
@@ -114,7 +114,7 @@ const Navbar = () => {
                   aria-hidden="true"
                 />
 
-                <span className="sr-only">Contact</span>
+                <span className="sr-only">Email</span>
               </>
             )}
           </NavLink>
