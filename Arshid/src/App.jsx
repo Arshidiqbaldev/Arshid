@@ -4,6 +4,7 @@ import Work from "./components/Work";
 import Things from "./components/Things";
 import Notfound from "./components/Notfound";
 import Layout from "./components/Layout";
+import Loader from "./components/Loader";
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,15 @@ const router = createBrowserRouter([
     element: (
       <Layout>
         <Things />
+      </Layout>
+    ),
+  },
+
+   {
+    path: "/loader",
+    element: (
+      <Layout>
+        <Loader />
       </Layout>
     ),
   },

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import bestfonts from "../assets/bestfonts.webp";
 import socialCarousel from "../assets/socialmediacarousel.webp";
 import Card from "./Card";
@@ -26,48 +26,29 @@ const cardData = [
 ];
 
 const Things = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // 1. Check if the browser has already loaded everything
-    if (document.readyState === "complete") {
-      setIsLoading(false);
-    } else {
-      // 2. Wait for all fonts, text, and heavy images to download
-      const handleLoad = () => setIsLoading(false);
-      window.addEventListener("load", handleLoad);
-
-      return () => window.removeEventListener("load", handleLoad);
-    }
-  }, []);
-
   useEffect(() => {
     document.title = "Things @Arshidiqbal";
   });
   return (
     <>
-      {isLoading ? (
-        <div className="flex flex-col gap-6 w-full">Loading...</div>
-      ) : (
-        <div className="flex flex-col gap-6 w-full">
-          <Carrot>
-            Design Resources<span className="text-brand inline-flex">.</span>
-          </Carrot>
+      <div className="flex flex-col gap-6 w-full">
+        <Carrot>
+          Design Resources<span className="text-brand inline-flex">.</span>
+        </Carrot>
 
-          <div className="flex  gap-2 w-full flex-wrap ">
-            {cardData.map((card) => (
-              <Card
-                key={card.id}
-                img={card.img}
-                alt={card.alt}
-                detail={card.detail}
-                action={card.action}
-                ctaContent={card.ctaContent}
-              />
-            ))}
-          </div>
+        <div className="flex  gap-2 w-full flex-wrap ">
+          {cardData.map((card) => (
+            <Card
+              key={card.id}
+              img={card.img}
+              alt={card.alt}
+              detail={card.detail}
+              action={card.action}
+              ctaContent={card.ctaContent}
+            />
+          ))}
         </div>
-      )}
+      </div>
     </>
   );
 };
